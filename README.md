@@ -10,9 +10,16 @@ We created two datasets (Information Dataset and Description Dataset) by retriev
 To perform this analysis we created two notebooks:
 + **Homework4_part1** - main notebook, where most of the analysis is contained
 + **TFIDF_matrix** - notebook for generating TFIDF matrix needed for Description Dataset
+
 Some functions used in analysis was located in the external files :
 + **collect_data.py**
 + **functions.py**
 
+Folder DataFiles contains files created and used during the first part analysis.
 
 ## 2) Find the duplicates!
+The second part is based on given passwords2.txt file, where each row corresponds to a string of 20 characters. Number of rows is 
+The task was to define a hash function that associates a value to each string and check whether there are some duplicate strings or collisions.
+
+The code for this part is located in notebook :
++ **hash??????????????????????**
