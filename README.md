@@ -18,7 +18,7 @@ Some functions used in analysis was located in the external files :
 Folder DataFiles contains files created and used during the first part analysis.
 
 ## 2) Find the duplicates!
-The second part is based on given passwords2.txt file, where each row corresponds to a string of 20 characters. Number of rows in this file is 110 000 000. ?????????
+The second part is based on given passwords2.txt file, where each row corresponds to a string of 20 characters. Number of rows in this file is 110 000 000.
 
 The task was to define a hash function that associates a value to each string and check whether there are some duplicate strings or collisions.
 
