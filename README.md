@@ -1,5 +1,18 @@
-# ADM_HW4_Group_7
+# HOMEWORK 4 - Group_7
+Joanna Broniarek, Vikranth Ale, Matteo  Cavalletti  
 
-ADM_HM_part1 - Notebook for Clustering Part of HOmework
+The homework consists of two parts:
 
-TFIDF_matrix - Notebook for creating TFIDF_matrix
+## 1) Does basic house information reflect house's description?
+In this part of the homework our task was to perform a clustering analysis of house announcements in Rome from Immobiliare.it. 
+We created two datasets (Information Dataset and Description Dataset) by retrieving data from websites. Then, we used K-mean++ clustering method for both datasets and compared the results. In order to use the best number of clusters per dataset we used Elbow method. At the end, we generated Wordclouds for most similar couples of clusters. 
+
+To perform this analysis we created two notebooks:
++ **Homework4_part1** - main notebook, where most of the analysis is contained
++ **TFIDF_matrix** - notebook for generating TFIDF matrix needed for Description Dataset
+Some functions used in analysis was located in the external files :
++ **collect_data.py**
++ **functions.py**
+
+
+## 2) Find the duplicates!
